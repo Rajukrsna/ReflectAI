@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Healthcare AI</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Healthcare Assistant</h1>
+        <form action="/analyze" method="POST" class="mt-4">
+            <div class="form-group">
+                <label for="healthProblem">Enter a Health Problem:</label>
+                <input type="text" class="form-control" id="healthProblem" name="healthProblem" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Analyze</button>
+        </form>
+    </div>
+</body>
+</html>
