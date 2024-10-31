@@ -7,6 +7,9 @@
     "express-session": "^1.18.1",
     "mongoose": "^8.7.3",
     "openai": "^4.68.4",
-    "pdfkit": "^0.15.0"
+    "pdfkit": "^0.15.0",
+     "scripts": {
+    "start": "node index.js"
+}
   }
 }
